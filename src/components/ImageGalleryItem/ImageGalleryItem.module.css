@@ -1,0 +1,15 @@
+.ImageGalleryItem {
+  border-radius: 2px;
+}
+
+.ImageGalleryItemImage {
+  width: 460px;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ImageGalleryItemImage:hover {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}
